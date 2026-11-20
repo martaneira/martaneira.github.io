@@ -20,7 +20,7 @@
         "Audited 26 seasons of the league’s public API endpoint by endpoint, and reviewed the player, coach and team ID mapping with an external data partner.",
         "Work with analysts so the coaching and operations dashboards run on clean, reliable data.",
       ],
-      stack: ["Python", "SQL", "BigQuery", "Cloud Run", "Flask", "Cloud Scheduler", "SendGrid", "Tableau"],
+      stack: ["Python", "SQL", "BigQuery", "APIs", "Google Cloud", "Tableau", "Web apps"],
     },
     {
       role: "Graduate Assistant", org: "Providence College", place: "Rhode Island, US", when: "Sep 2025 – May 2026",
@@ -48,10 +48,10 @@
   ];
 
   const SKILLS = [
-    ["Data engineering", ["BigQuery", "SQL", "ETL / ELT pipelines", "Cloud Run", "Cloud Functions", "Cloud Scheduler", "Firestore", "REST APIs", "Data quality audits"]],
-    ["Programming", ["Python", "SQL", "R", "Java", "C++", "pandas", "Flask", "JavaScript", "HTML / CSS", "Git"]],
-    ["Analytics", ["Statistics", "SAS", "Tableau", "Excel", "Dashboards", "Data modelling"]],
-    ["Ways of working", ["Stakeholder interviews", "Documentation", "Security and secrets", "AI-assisted development"]],
+    ["Data & cloud", ["BigQuery", "SQL", "Python", "APIs", "Data pipelines", "Google Cloud (Cloud Run)"]],
+    ["Programming & web", ["Python", "R", "SAS", "C++", "Java", "HTML / CSS", "Web development"]],
+    ["Analytics & BI", ["Business analytics", "Statistics", "Power BI", "Tableau", "Excel", "Dashboards"]],
+    ["Languages", ["Spanish · native", "Catalan · native", "English · professional", "Italian · basic"]],
   ];
 
   function home() {
@@ -100,7 +100,7 @@
       </div></section>
 
       <section class="section band" id="skills"><div class="wrap">
-        <div class="section-head"><h2>Skills</h2><p style="color:inherit;opacity:.75">The tools I use every week.</p></div>
+        <div class="section-head"><h2>Skills</h2><p style="color:inherit;opacity:.75">What I work with, and the languages I speak.</p></div>
         <div class="skills">${SKILLS.map(([g, list]) => `<div><b>${esc(g)}</b><div class="stack">${list.map((t) => `<span class="chip dark">${esc(t)}</span>`).join("")}</div></div>`).join("")}</div>
       </div></section>
 
