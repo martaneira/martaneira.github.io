@@ -6,7 +6,7 @@
 window.PROFILE = {
   name: "Marta Neira",
   role: "Data Engineer",
-  languages: ["English", "Spanish (native)", "Catalan (native)"],
+  languages: ["Spanish · native", "Catalan · native", "English · professional", "Italian · basic"],
   city: "Barcelona, Spain",
   email: "mneiramartinez33@gmail.com",
   github: "https://github.com/martaneira",
@@ -347,4 +347,3 @@ window.ALSO = [
   ["Historical data audit", "Documented 26 seasons of the league API, endpoint by endpoint, before building on it."],
   ["Player ID mapping", "Reviewed the player, coach and team ID mapping with an external data partner."],
 ];
-
